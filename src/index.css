@@ -49,6 +49,7 @@ a{
   display: flex;
   justify-content: space-around;
   text-align: center;
+  padding: 30px;
 }
 p{
   font-size: 14px;
@@ -75,5 +76,16 @@ button:hover{
   width: 100%;
   padding-bottom: 35px;
   
+  
+}
+
+
+/*Footer*/
+.Footer{
+  background-color: black;
+  color: #FFFB7D;
+  text-align: center;
+  padding: 50px;
+  font-weight: lighter;
   
 }
