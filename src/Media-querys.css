@@ -1,0 +1,19 @@
+@media(max-width: 520px){
+ 
+ .news-container{
+    flex-wrap: wrap;
+ }
+ .main-Nav{
+    
+    flex-direction:column;
+    top: 0;
+    align-items: center;
+    gap: 1rem;
+ }
+ .Img-tittle{
+    align-items: center;
+ }
+
+ 
+}
+    
