@@ -1,10 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ApiGetCoin } from './api';
 
 function App(props) {
   const [apiData, setApiData] = useState('');
   const newTittle = '<Code Signal/>';
-  ApiGetCoin().then((res) => setApiData(res.data));
+  useEffect(() => {
+    ApiGetCoin().then((res) => setApiData(res.data));
+  }, []);
 
   return (
     <>
