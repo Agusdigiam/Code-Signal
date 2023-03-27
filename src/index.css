@@ -89,3 +89,16 @@ button:hover{
   font-weight: lighter;
   
 }
+
+/*Form*/
+.FormMain{
+  font-size: 25px;
+  text-align: center;
+  background-color: #FFFB7D;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+input{
+  font-size: 20px;
+}

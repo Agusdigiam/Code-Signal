@@ -6,12 +6,14 @@ import {Middle} from './Middle'
 import {Center} from './Center'
 import './Media-querys.css'
 import {Footer} from './Footer'
+import {Form} from './Form'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
     <Center />
     <Middle />
+    <Form />
     <Footer />
   </React.StrictMode>,
 )
