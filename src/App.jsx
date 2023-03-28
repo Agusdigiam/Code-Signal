@@ -14,7 +14,7 @@ function App(props) {
       <p className="main-Subtitle">{apiData.msg}</p>
       <ul className="main-Nav">
         <li>
-          <a href="#news">News</a>
+          <a href="#4">News</a>
         </li>
         <li>
           <a href="#">Post</a>
@@ -23,7 +23,7 @@ function App(props) {
           <a href="#">Questions</a>
         </li>
         <li>
-          <a href="https://github.com/agusdigiam">Contact</a>
+          <a href='#3'>Contact Us</a>
         </li>
       </ul>
     </>

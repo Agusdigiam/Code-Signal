@@ -97,6 +97,15 @@ button:hover{
   background-color: #FFFB7D;
   padding-top: 60px;
   padding-bottom: 60px;
+  
+}
+
+
+.Btnform{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
 }
 
 input{
