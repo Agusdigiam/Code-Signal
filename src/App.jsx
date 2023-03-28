@@ -14,13 +14,13 @@ function App(props) {
       <p className="main-Subtitle">{apiData.msg}</p>
       <ul className="main-Nav">
         <li>
-          <a href="#4">News</a>
+          <a href="#1">News</a>
         </li>
         <li>
           <a href="#">Post</a>
         </li>
         <li>
-          <a href="#">Questions</a>
+          <a href="#2">About Us</a>
         </li>
         <li>
           <a href='#3'>Contact Us</a>

@@ -1,5 +1,12 @@
 @media(max-width: 520px){
- 
+ .main-Tittle{
+   font-size: 35px;
+   font-weight: lighter;
+
+ }
+ .main-Subtitle{
+   font-size: 15px ;
+ }
  .news-container{
     flex-wrap: wrap;
  }

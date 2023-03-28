@@ -14,7 +14,7 @@ export function Form() {
             <label for="fadress">Adress:</label><br></br>
             <input type="text" id="fadress" name="fadress"/>
         </form><br></br> 
-        <button className='Btnform'>Send!</button> 
+        <button className='Btnform' onClick={Click} >Send!</button> 
     </div>
     
     
@@ -22,4 +22,8 @@ export function Form() {
         
   )
 };
+
+function Click(){
+  return alert("Formulario Enviado!")
+}
 

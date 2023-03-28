@@ -11,12 +11,15 @@ body {
 }
 
 .main-Tittle{
-  font-size: 55px;
+  font-size: 75px;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 10px;
 }
 .main-Subtitle{
   text-align: center;
+  font-size: 30px;
+  padding-bottom: 15px;
 }
 
 /*Menu*/
@@ -78,6 +81,31 @@ button:hover{
   
   
 }
+/*About Us*/
+.About-title{
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 10px;
+
+}
+.Aboutp{
+  color: black;
+  font-weight: bolder;
+  font-size: 23px;
+  line-break:auto;
+}
+.About-subtitle{
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+.prof-img{
+  display: flex;
+  justify-content: center;
+  border-radius: 100px;
+  width: 15%;
+}
+
 
 
 /*Footer*/

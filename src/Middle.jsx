@@ -8,7 +8,7 @@ import news4 from '../public/assets/news4.jpg'
 export function Middle() {
     return( 
         
-        <div className="news-container" id="4">
+        <div className="news-container" id="1">
             <div className="border-card">
                 <img src={news1} alt="img1" />
                 <h5>Lastest News</h5>
