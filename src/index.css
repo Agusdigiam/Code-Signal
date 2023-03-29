@@ -82,28 +82,38 @@ button:hover{
   
 }
 /*About Us*/
+.About{
+  background-color: lightgreen;
+  display: block;
+  padding: 8%;
+  
+}
 .About-title{
   text-align: center;
   font-size: 36px;
   padding-bottom: 10px;
+  
 
 }
 .Aboutp{
+  text-align: justify;
   color: black;
-  font-weight: bolder;
-  font-size: 23px;
-  line-break:auto;
+  font-size: 15px;
+  padding: 60px;
+  background-color: white;
+  border: white solid;
+  border-radius: 30px;
+  
 }
-.About-subtitle{
-  text-align: center;
-  font-size: 25px;
-  padding-bottom: 15px;
-}
-.prof-img{
-  display: flex;
-  justify-content: center;
+
+.AboutPhoto{
   border-radius: 100px;
-  width: 15%;
+  border: white;
+  right: auto;
+  left: auto;
+  width: 10%;
+  
+    
 }
 
 
