@@ -2,12 +2,11 @@ import React from 'react'
 
 
 
-
 export function Form() {
   return (
     <div className='FormMain' id='3'>
         <h2 className='FormTitle'>Please, for inquires complete the form bellow.</h2><br></br>
-        <form>
+        <form onSubmit={prosesarTodo}>
             <label for="fname">First name:</label><br></br>
             <input type="text" id="fname" name="fname"/><br></br>
             <label for="lname">Last name:</label><br></br>
@@ -15,9 +14,10 @@ export function Form() {
             <label for="fnumber">Phone Number:</label><br></br>
             <input type="number" id="fnumber" name="fnumber"/><br></br>
             <label for="fadress">Adress:</label><br></br>
-            <input type="text" id="fadress" name="fadress"/>
+            <input type="text" id="fadress" name="fadress"/><br></br>
+            <button type="submit"  className='Btnform' >Send!</button> 
         </form><br></br> 
-        <button className='Btnform' onClick={Click} >Send!</button> 
+        
     </div>
     
     
@@ -26,13 +26,16 @@ export function Form() {
   )
 };
 
+
+
 const formulario = document.querySelector(".FormMain");
 
 
 const prosesarTodo = (SubmitEvent) => {
   SubmitEvent.preventDefault();
-
+  
   const datos = new FormData(SubmitEvent.target);
+  
   
   const datosCompletos = Object.fromEntries(datos.entries
   ());
@@ -43,6 +46,3 @@ const prosesarTodo = (SubmitEvent) => {
 
 
 
-function Click(){
-  return console.log({prosesarTodo});
-}
