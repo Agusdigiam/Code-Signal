@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 export function Form() {
   return (
     <div className='FormMain' id='3'>
@@ -23,7 +26,23 @@ export function Form() {
   )
 };
 
-function Click(){
-  return alert("Formulario Enviado!")
+const formulario = document.querySelector(".FormMain");
+
+
+const prosesarTodo = (SubmitEvent) => {
+  SubmitEvent.preventDefault();
+
+  const datos = new FormData(SubmitEvent.target);
+  
+  const datosCompletos = Object.fromEntries(datos.entries
+  ());
+  
+  console.log(JSON.stringify(datosCompletos));
+
 }
 
+
+
+function Click(){
+  return console.log({prosesarTodo});
+}
