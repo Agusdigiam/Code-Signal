@@ -7,14 +7,14 @@ export function Form() {
     <div className='FormMain' id='3'>
         <h2 className='FormTitle'>Please, for inquires complete the form bellow.</h2><br></br>
         <form onSubmit={prosesarTodo}>
-            <label for="fname">First name:</label><br></br>
-            <input type="text" id="fname" name="fname"/><br></br>
-            <label for="lname">Last name:</label><br></br>
-            <input type="text" id="lname" name="lname"/><br></br>
-            <label for="fnumber">Phone Number:</label><br></br>
-            <input type="number" id="fnumber" name="fnumber"/><br></br>
-            <label for="fadress">Adress:</label><br></br>
-            <input type="text" id="fadress" name="fadress"/><br></br>
+            <label for="first_name">First name:</label><br></br>
+            <input type="text" id="first_name" name="first_name"/><br></br>
+            <label for="last_name">Last name:</label><br></br>
+            <input type="text" id="last_name" name="last_name"/><br></br>
+            <label for="phone_number">Phone Number:</label><br></br>
+            <input type="number" id="phone_number" name="phone_number"/><br></br>
+            <label for="adress">Adress:</label><br></br>
+            <input type="text" id="adress" name="adress"/><br></br>
             <button type="submit"  className='Btnform' >Send!</button> 
         </form><br></br> 
         
@@ -42,7 +42,14 @@ const prosesarTodo = (SubmitEvent) => {
   
   console.log(JSON.stringify(datosCompletos));
 
+  
+
+  alert('Form Sent!')
+
 }
+
+
+
 
 
 
