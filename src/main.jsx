@@ -8,6 +8,7 @@ import './Media-querys.css'
 import {Footer} from './Footer'
 import {Form} from './Form'
 import {About} from './About'
+import {Switch} from './Switch'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
     <Center />
     <Middle />
+    <Switch />
     <About />
     <Form />
     <Footer />

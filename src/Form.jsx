@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import {useState} from 'react'
+
+
 
 
 
@@ -16,19 +19,24 @@ export function Form() {
             <label for="adress">Adress:</label><br></br>
             <input type="text" id="adress" name="adress"/><br></br>
             <button type="submit"  className='Btnform' >Send!</button> 
-        </form><br></br> 
+        </form><br></br>
         
     </div>
     
     
+)};
 
-        
-  )
-};
+
+//const guardarData = [first_name, setUserName] = useState ( () => {
+//  const savedItem = localStorage.getItem("nombre");
+//  const parsedItem = JSON.parse(savedItem);
+//  return parsedItem || "";
+//});
 
 
 
 const formulario = document.querySelector(".FormMain");
+
 
 
 const prosesarTodo = (SubmitEvent) => {
@@ -41,13 +49,12 @@ const prosesarTodo = (SubmitEvent) => {
   ());
   
   console.log(JSON.stringify(datosCompletos));
-
   
+ 
 
   alert('Form Sent!')
-
+  
 }
-
 
 
 

@@ -11,6 +11,7 @@ function App(props) {
   return (
     <>
       <h1 className="main-Tittle">{newTittle}</h1>
+      <p className="main-Subtitle">Code Solutions For Everyone!</p>
       <p className="main-Subtitle">{apiData.msg}</p>
       <ul className="main-Nav">
         <li>
@@ -29,5 +30,6 @@ function App(props) {
     </>
   );
 }
+
 
 export default App;
